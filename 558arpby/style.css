@@ -493,8 +493,8 @@ footer {
 .news{
     padding-top: 30px;
     padding-bottom: 30px;
-    height: 100%;
     position: relative;
+    background-color: #FFFFFF;
 }
 
 .news_container {
