@@ -1765,52 +1765,163 @@ footer {
      
  }
  
- .history_slide-photo1{
+ .licenses_slide-photo1{
     width: 205px;
     height: 293px;
     opacity: 0.3;
     margin-right: 26px;
+    margin-top: 63px;
     
  
  }
  
- .history_slide-photo2{
+ .licenses_slide-photo2{
     width: 233px;
     height: 334px;
     opacity: 0.3;
     margin-right: 27px;
+    margin-top: 42px;
  }
  
- .history_slide-photo3{
+ .licenses_slide-photo3{
     width: 298px;
     height: 424px;
     margin-right: 26px;
  }
 
- .history_slide-photo4{
+ .licenses_slide-photo4{
     width: 233px;
     height: 334px;
     opacity: 0.3;
     margin-right: 27px;
+    margin-top: 42px;
  }
 
- .history_slide-photo5{
+ .licenses_slide-photo5{
     width: 205px;
     height: 293px;
     opacity: 0.3;
-    
+    margin-top: 63px;
+    margin-right: 17px;
  }
  
  
- .history_slide-line1{
+ .licenses_slide-line1{
      margin-right: 17px;
      align-self: center;
      height: 50%;
      
  }
  
- .history_slide-line2{
+ .licenses_slide-line2{
      margin-left: 17px;
      align-self: center;
      height: 50%;
  }
+
+ #corruption {
+    height: 130px;
+    background: url("sky.png") no-repeat center / cover;
+    position: relative;
+    padding-bottom: 30px;
+    
+}
+
+#corruption header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}        
+
+.corruption{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.corruption_container {
+  max-width: 1351px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0 auto;
+  margin-bottom: 120px;
+ 
+   
+}
+
+.corruption_tabs{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: left;
+    margin-left: 30px;
+
+   
+}
+
+.corruption_shape{
+    width: 7px;
+    height: 11px;
+    padding-top: 5px;
+    
+}
+
+.corruption_tab:not(:last-child){
+    padding-right: 8px;
+    color: #C4C4C4;
+    
+}
+
+.corruption_h{
+    margin-left: 35px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.corruption_tab{
+    padding-left: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.corruption_content{
+    max-width: 1351px;
+    max-height: 283px;
+    margin-left: 35px;
+}
+
+.corruption_head-list{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    margin-bottom: 20px;
+}
+
+.corruption_point{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    margin-left: 20px;
+    
+}
+
+.corruption_point{
+    margin-bottom: 10px;
+}
+
+.corruption_point-blue{
+    color:rgb(17, 146, 185)
+}
