@@ -2281,3 +2281,359 @@ footer {
  .press--text11{
     margin-right: 85px;
  }
+
+ #repair {
+    height: 130px;
+    background: url("sky.png") no-repeat center / cover;
+    position: relative;
+    padding-bottom: 30px;
+    
+}
+
+#repair header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}        
+
+.repair{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.repair_container {
+  max-width: 1351px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0 auto;
+  padding-bottom: 130px;
+   
+}
+
+.repair_tabs{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: left;
+    margin-left: 30px;
+
+   
+}
+
+.repair_shape{
+    width: 7px;
+    height: 11px;
+    padding-top: 5px;
+    
+}
+
+.repair_tab:not(:last-child){
+    padding-right: 8px;
+    color: #C4C4C4;
+    
+}
+
+.repair_h{
+    margin-left: 35px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.repair_tab{
+    padding-left: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.repair_content{
+    width: 1351px;
+    height: 3432px;
+}
+
+.repair_block1{
+    width: 1351px;
+    height: 597px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.repair_block1--photo{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: 597px;
+    margin-right: 35px;
+
+}
+
+.repair_block1-photo{
+    width: 620px;
+    height: 281px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.repair_block1-photo1{
+    width: 620px;
+    height: 276px;
+    border-radius: 15px;
+}
+
+
+.repair_block1--text{
+    display: flex;
+    flex-direction:column;
+    width: 620px;
+    height: 597px;
+    margin-left: 36px;
+}
+
+.repair_block1-text1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 18px;
+    
+}
+
+.repair_block1-text2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 18px;
+}
+
+.repair_block1-text3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 18px;
+}
+
+
+.repair_block2{
+    width: 1351px;
+    height: 693px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.repair_block2--photo{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: 597px;
+    margin-left: 35px;
+    margin-right: 40px;
+
+}
+
+.repair_block2-photo{
+    width: 620px;
+    height: 326px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.repair_block2-photo1{
+    width: 620px;
+    height: 327px;
+    border-radius: 15px;
+}
+
+
+.repair_block2--text{
+    display: flex;
+    flex-direction:column;
+    width: 620px;
+    height: 693px;
+    margin-right: 36px;
+}
+
+.repair_block2-text1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 18px;
+    
+}
+
+.repair_block2-text2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 18px;
+}
+
+.repair_block2-text3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 18px;
+}
+
+.repair_block2-text4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+
+.repair_slide{
+    max-width: 1351px;
+    display: flex;
+    justify-content: center;
+    max-height: 350px;
+    margin-bottom: 80x;
+    
+     
+ }
+ 
+ .repair_slide-photo1{
+     width: 290px;
+     height: 350px;
+     border-radius: 0px 15px 15px 0px;
+     margin-right: 40px;
+ 
+ }
+ 
+ .repair_slide-photo2{
+     width: 620px;
+     height: 350px;
+     border-radius: 15px;
+     margin-right: 40px;
+ }
+ 
+ .repair_slide-photo3{
+     width: 290px;
+     height: 350px;
+     border-radius: 15px 0px 0px 15px;
+ }
+ 
+ .repair_slide-line1{
+     margin-right: 17px;
+     align-self: center;
+     height: 50%;
+     
+ }
+ 
+ .repair_slide-line2{
+     margin-left: 17px;
+     align-self: center;
+     height: 50%;
+ }
+
+ .repair_workshops{
+    width: 785px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-left: 35px;
+ }
+
+
+ .repair_workshop1{
+    padding-left: 15px;
+    padding-right: 36px;
+    border-bottom: 3px solid #E6E7E8;
+    padding-bottom: 4px;
+    width: 90px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+
+ }
+
+ .repair_workshop2{
+    padding-left: 10px;
+    padding-right: 35px;
+    border-bottom: 1px solid #E6E7E8;
+    padding-bottom: 4px;
+ }
+
+ .repair_workshop3{
+    padding-left: 10px;
+    padding-right: 35px;
+    border-bottom: 1px solid #E6E7E8;
+    padding-bottom: 4px;
+ }
+
+ .repair_workshop4{
+    padding-left: 10px;
+    padding-right: 35px;
+    border-bottom: 1px solid #E6E7E8;
+    padding-bottom: 4px;
+ }
+
+ .repair_workshop5{
+    padding-left: 10px;
+    padding-right: 35px;
+    border-bottom: 1px solid #E6E7E8;
+    padding-bottom: 4px;
+ }
+
+ .repair_workshop6{
+    padding-left: 10px;
+    padding-right: 35px;
+    border-bottom: 1px solid #E6E7E8;
+    padding-bottom: 4px;
+ }
+
+ .repair_workshop7{
+    padding-left: 10px;
+    padding-right: 35px;
+    border-bottom: 1px solid #E6E7E8;
+    padding-bottom: 4px;
+ }
+
+ .repair_workshop8{
+    border-bottom: 1px solid #E6E7E8;
+    padding-bottom: 4px;
+ }
