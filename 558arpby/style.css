@@ -2310,7 +2310,7 @@ footer {
   flex-direction: column;
   align-items: left;
   margin: 0 auto;
-  padding-bottom: 130px;
+  margin-bottom: 130px;
    
 }
 
@@ -2529,7 +2529,7 @@ footer {
     display: flex;
     justify-content: center;
     max-height: 350px;
-    margin-bottom: 80x;
+    margin-bottom: 80px;
     
      
  }
@@ -2568,72 +2568,301 @@ footer {
      height: 50%;
  }
 
- .repair_workshops{
-    width: 785px;
+ .repair_workshops {
+    width: 100%;
+    max-width: 785px;
     display: flex;
     flex-direction: row;
     margin-bottom: 15px;
     margin-left: 35px;
- }
-
-
- .repair_workshop1{
-    padding-left: 15px;
-    padding-right: 36px;
-    border-bottom: 3px solid #E6E7E8;
-    padding-bottom: 4px;
-    width: 90px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
+    color: #C4C4C4;
+    margin-bottom: 46px;
+    }
+    
+    .repair_workshop1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 90px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    border-bottom: 1px solid #E6E7E8;
+    }
+    
+    .repair_workshop1:hover {
+    font-weight: bold;
+    color: #2B2B2B;
+    border-bottom: 2px solid #146FBE;
+    }
+    
+    .repair_workshop2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 90px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    border-bottom: 1px solid #E6E7E8;
+    }
+    
+    .repair_workshop2:hover {
+    font-weight: bold;
+    color: #2B2B2B;
+    border-bottom: 2px solid #146FBE;
+    }
+    
+    .repair_workshop3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 90px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    border-bottom: 1px solid #E6E7E8;
+    }
+    
+    .repair_workshop3:hover {
+    font-weight: bold;
+    color: #2B2B2B;
+    border-bottom: 2px solid #146FBE;
+    }
+    
+    .repair_workshop4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 90px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    border-bottom: 1px solid #E6E7E8;
+    }
+    
+    .repair_workshop4:hover {
+    font-weight: bold;
+    color: #2B2B2B;
+    border-bottom: 2px solid #146FBE;
+    }
+    
+    .repair_workshop5 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 90px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    border-bottom: 1px solid #E6E7E8;
+    }
+    
+    .repair_workshop5:hover {
+    font-weight: bold;
+    color: #2B2B2B;
+    border-bottom: 2px solid #146FBE;
+    }
+    
+    .repair_workshop6 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 90px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    border-bottom: 1px solid #E6E7E8;
+    }
+    
+    .repair_workshop6:hover {
+    font-weight: bold;
+    color: #2B2B2B;
+    border-bottom: 2px solid #146FBE;
+    }
+    
+    .repair_workshop7 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 90px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    border-bottom: 1px solid #E6E7E8;
+    }
+    
+    .repair_workshop7:hover {
+    font-weight: bold;
+    color: #2B2B2B;
+    border-bottom: 2px solid #146FBE;
+    }
+    
+    .repair_workshop8 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 90px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    border-bottom: 1px solid #E6E7E8;
+    }
+    
+    .repair_workshop8:hover {
+    font-weight: bold;
+    color: #2B2B2B;
+    border-bottom: 2px solid #146FBE;
+    }
+
+ .repair_painting{
+    margin-left: 35px;
+    margin-bottom: 44px;
+ }
+
+ .repair_painting-head{
+    margin-bottom: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #2B2B2B;
 
  }
 
- .repair_workshop2{
-    padding-left: 10px;
-    padding-right: 35px;
-    border-bottom: 1px solid #E6E7E8;
-    padding-bottom: 4px;
+ .repair_painting-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    
  }
 
- .repair_workshop3{
-    padding-left: 10px;
-    padding-right: 35px;
-    border-bottom: 1px solid #E6E7E8;
-    padding-bottom: 4px;
+ .repair_photo-blocks1{
+    width: 1351px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    margin-left: 35px;
  }
 
- .repair_workshop4{
-    padding-left: 10px;
-    padding-right: 35px;
-    border-bottom: 1px solid #E6E7E8;
-    padding-bottom: 4px;
+ .repair_photo-block1{
+    margin-right: 40px;
  }
 
- .repair_workshop5{
-    padding-left: 10px;
-    padding-right: 35px;
-    border-bottom: 1px solid #E6E7E8;
-    padding-bottom: 4px;
+ .repair_photo-text1{
+    position: absolute;
+    padding: 340px 193px 30px 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+
  }
 
- .repair_workshop6{
-    padding-left: 10px;
-    padding-right: 35px;
-    border-bottom: 1px solid #E6E7E8;
-    padding-bottom: 4px;
+ .repair_photo-image1{
+    width: 620px;
+    height: 400px;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 27.63%);
+    border-radius: 15px;
  }
 
- .repair_workshop7{
-    padding-left: 10px;
-    padding-right: 35px;
-    border-bottom: 1px solid #E6E7E8;
-    padding-bottom: 4px;
+ .repair_photo-text2{
+    position: absolute;
+    padding: 340px 398px 30px 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
  }
 
- .repair_workshop8{
-    border-bottom: 1px solid #E6E7E8;
-    padding-bottom: 4px;
+ .repair_photo-image2{
+    width: 620px;
+    height: 400px;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 27.63%);
+    border-radius: 15px;
+ }
+
+ .repair_photo-blocks2{
+    width: 1351px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-bottom: 40px;
+ }
+
+.repair_photo-block3{
+    margin-right: 40px;
+}
+
+ .repair_photo-text3{
+    position: absolute;
+    padding: 340px 427px 30px 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+ }
+
+ .repair_photo-image3{
+    width: 620px;
+    height: 400px;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 27%);
+    border-radius: 15px;
+ }
+
+ .repair_photo-text4{
+    position: absolute;
+    padding: 340px 313px 30px 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+ }
+
+ .repair_photo-image4{
+    width: 620px;
+    height: 400px;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 29.88%);
+    border-radius: 15px;
+ }
+
+ .repair_photo-block5{
+    width: 620px;
+    height: 400px;
+    margin-left: 35px;
+ }
+
+ .repair_photo-text5{
+    position: absolute;
+    padding: 340px 419px 30px 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+ }
+
+ .repair_photo-image5{
+    width: 620px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 30.12%);
+    border-radius: 15px;
  }
