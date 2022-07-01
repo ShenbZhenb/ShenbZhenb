@@ -380,6 +380,10 @@ position: relative;
 }
 
 .services_shift{
+    display: block;
+}
+
+.services_unshift{
     display: none;
 }
 
