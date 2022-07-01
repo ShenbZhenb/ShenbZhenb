@@ -36,7 +36,8 @@ a {
     font-size: 18px;
     line-height: 22px;
     color: var(--link-color);
-    width: 100%;
+    max-width: 100%;
+    
 }
 
 
@@ -282,8 +283,8 @@ header {
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
-    top: 34%;
-    right: 34%;
+    top: 30%;
+    right: 32%;
 }
 
 .services_unblock1{
@@ -303,8 +304,8 @@ position: relative;
     line-height: 21px;
     text-align: center;
     color: #FFFFFF;
-    top: 50%;
-    right: 24%;
+    top: 46%;
+    right: 22%;
 }
 
 .services_button{
@@ -320,8 +321,8 @@ position: relative;
     line-height: 21px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
-    right: 41%;
-    top: 65%;
+    right: 39%;
+    top: 62%;
     
 }
 
@@ -376,6 +377,10 @@ position: relative;
     top: 42%;
     right: 34%;
     
+}
+
+.services_shift{
+    display: none;
 }
 
 #map {
