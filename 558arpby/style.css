@@ -124,6 +124,36 @@ a {
     height: 255px;
 }
 
+.box_red1{
+    position: absolute;
+    background: url("/558arpby/oblako1.png") no-repeat center / cover;
+    width: 528px;
+    height: 277px;
+    top: 60%;
+    right: 72%;
+    transform: translate(50%, -30%);
+}
+
+.box_red2{
+    position: absolute;
+    background: url("/558arpby/new_oblako2.png") no-repeat center / cover;
+    width: 528px;
+    height: 277px;
+    top: 22%;
+    right: 55%;
+    transform: translate(50%, -30%);
+}
+
+.box_red3{
+    position: absolute;
+    background: url("/558arpby/oblako3.png") no-repeat center / cover;
+    width: 1181px;
+    height: 325px;
+    top: 50%;
+    right: 25%;
+    transform: translate(50%, -30%);
+}
+
 header {
     position: absolute;
     top: 0;
