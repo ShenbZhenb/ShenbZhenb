@@ -17,26 +17,6 @@
 
 
         
-
-
-          .boxes {
-            transition: left .4s;
-          }
-
-
-          .box {
-            position: absolute;
-          }
-
-
-          .notransition {
-            -webkit-transition: none !important;
-            -moz-transition: none !important;
-            -o-transition: none !important;
-            transition: none !important;
-          }
-
-
           
     </style>
 </head>
@@ -95,7 +75,7 @@
             </div>
         </header>
         <div class="container">
-            <h2 class="section-title welcome-title">Ремонт авиационной  техники</h2>
+            <h2 class="section-title welcome-title textrotator">Ремонт авиационной  техники</h2>
             <button class="common-button welcome-button">Оставить заявку</button>
         </div>
 
@@ -131,7 +111,7 @@
 
                 <div class="services_unblock1" >
                    <a href="details.html">
-                   <img class="services_image1 services_img" src="air_component_4.png" alt="air">
+                   <img class="services_image1 services_img" src="air_component_4 (1).png" alt="air">
                    <h2 class="services_head1">Производство авиационных<br> компонентов и деталей</h2>
                    <p class="services_text1">Изготовим детали и компоненты высокого качества и любой<br class="services_shift"> сложности, на высокоточных станках с ЧПУ</p>
                    <button class="services_button" >Оставить заявку</button>
@@ -281,89 +261,11 @@
     </div>
 
     <script src="libs/main.js" defer></script>
+    <script type="text/javascript">
+        $(document).ready(function(){ Rotator(); })
+        </script>
     <script>
-        function fnDebounce(f, ms) {
-                let isCooldown = false;
-
-                return function () {
-                    if (isCooldown) return;
-
-                    f.apply( this, arguments );
-
-                    isCooldown = true;
-
-                    setTimeout( () => {
-                        isCooldown = false;
-                    }, ms );
-                };
-            }
-
-
-            function onMouseEnter(e) {
-                e.stopPropagation();
-
-                bufferScene.mouse = true;
-                bufferScene.x = e.clientX;
-            }
-
-            function onMouseLeave(e) {
-                e.stopPropagation();
-
-                bufferScene.mouse = false;
-                bufferScene.x = e.clientX;
-            }
-
-            function onMouseMove(e) {
-                e.stopPropagation();
-
-                if (false === bufferScene.mouse) return;
-
-                domBoxRed.classList.add( 'notransition' );
-                domBoxGreen.classList.add( 'notransition' );
-
-                const k = .25;
-                const diff = (e.clientX - bufferScene.x) * k;
-
-                const posRed = parseInt( domBoxRed.style.left );
-                const posGreen = parseInt( domBoxGreen.style.left );
-                const posRedNew = Math.max( bufferScene.posRedMin, Math.min( bufferScene.posRedMax, posRed + diff ) );
-                const posGreenNew = Math.max( bufferScene.posGreenMin, Math.min( bufferScene.posGreenMax, posGreen - diff ) );
-
-                domBoxRed.classList.remove( 'notransition' );
-                domBoxGreen.classList.remove( 'notransition' );
-
-                domBoxRed.style.left = posRedNew + 'px';
-                domBoxGreen.style.left = posGreenNew + 'px';
-
-                bufferScene.x = e.clientX;
-            }
-
-
-            const domScene = document.getElementById( 'scene' );
-            const domBoxRed = document.getElementById( 'boxes-red' );
-            const domBoxGreen = document.getElementById( 'plain' );
-
-
-            const posRed = parseInt( domBoxRed.style.left );
-            const posGreen = parseInt( domBoxGreen.style.left );
-
-            const bufferScene = {
-                mouse: false,
-                x:     null,
-
-                posRed:    posRed,
-                posRedMin: posRed - 50,
-                posRedMax: posRed + 50,
-
-                posGreen:    posGreen,
-                posGreenMin: posGreen - 50,
-                posGreenMax: posGreen + 50,
-            };
-
-
-            domScene.addEventListener( 'mouseenter', onMouseEnter );
-            domScene.addEventListener( 'mouseleave', onMouseLeave );
-            domScene.addEventListener( 'mousemove', fnDebounce( onMouseMove, 100 ) );
+       
     </script>
 </body>
 
