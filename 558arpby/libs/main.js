@@ -1,7 +1,8 @@
+
 const drodownManager = () => {
     const controls = document.querySelectorAll(".menu-control");
     const dropdownLists = document.querySelectorAll(".submenu");
-    
+
     controls.forEach(control => {
         control.addEventListener("click", (e) => {
             const element = Array.from(e.target.children).find(element => element.tagName.toLowerCase() === 'ul');
@@ -12,7 +13,7 @@ const drodownManager = () => {
 
     dropdownLists.forEach(list => {
         list.addEventListener("mouseleave", e => {
-            if(list.classList.contains("active")) {
+            if (list.classList.contains("active")) {
                 list.classList.remove("active");
             }
         })
@@ -28,7 +29,7 @@ const burgerToggler = () => {
         burger.classList.add("visible");
     })
 
-    
+
     burgerCloseBtn.addEventListener("click", () => {
         burger.classList.remove("visible");
     })
@@ -38,30 +39,54 @@ drodownManager();
 burgerToggler();
 
 
-function Rotator(start_from){
-    var phrases = ["Ремонт авиационной техники","Сервисное обслуживание авиационной техники","Производство деталей и авиакомпонентов"];
-    var total = phrases.length;
-    var interval = 5000;
-    if(void 0 === start_from){
-        start_from = 0;
+(function () {
+    // Add event listener
+    document.addEventListener("mousemove", parallax);
+    const elem = document.querySelector("#welcome");
+    // Magic happens here
+    function parallax(e) {
+      let _w = window.innerWidth / 2;
+      let _h = window.innerHeight / 2;
+      let _mouseX = e.clientX;
+      let _mouseY = e.clientY;
+      let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${
+        50 - (_mouseY - _h) * 0.01
+      }%`;
+      let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${
+        50 - (_mouseY - _h) * 0.02
+      }%`;
+      let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${
+        50 - (_mouseY - _h) * 0.06
+      }%`;
+      let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+      console.log(x);
+      elem.style.backgroundPosition = x;
     }
+  })();
+  
+  (function () {
+    // Add event listener
+    document.addEventListener("mousemove", parallax);
+    const elem = document.querySelector("#plain-img");
+    // Magic happens here
+    function parallax(e) {
+      let _w = window.innerWidth / 2;
+      let _h = window.innerHeight / 2;
+      let _mouseX = e.clientX;
+      let _mouseY = e.clientY;
+      let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${
+        50 - (_mouseY - _h) * 0.01
+      }%`;
+      let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${
+        50 - (_mouseY - _h) * 0.02
+      }%`;
+      let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${
+        50 - (_mouseY - _h) * 0.06
+      }%`;
+      let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+      console.log(x);
+      elem.style.backgroundPosition = x;
+    }
+  })();
 
-    $(".textrotator").text(phrases[start_from]).animate({"opacity":"1"}, 1000, function(){
-                if(start_from >= (total-1)){
-                    setTimeout(function(){
-                        $(".textrotator").animate({"opacity":"0"}, 1000, function(){
-                            Rotator();
-                        });
-                    }, interval);
-                }else{
-                    start_from++;
-                    setTimeout(function(){
-                        $(".textrotator").animate({"opacity":"0"}, 1000,function(){
-                            Rotator(start_from);
-                        });
-                    }, interval);
-        
-                }			
-        
-    })
-}
+  

@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     
     <script src="https://kit.fontawesome.com/7d33ba923d.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs.jquery/2.0.3/jquery.min.js"></script>
     <style>
 
 
@@ -82,12 +83,12 @@
         <div id="scene" class="scene">
             <div class="scene__align">
                 <div id="boxes-red" class="boxes" style="left: -250px;" >
-                    <div class="box box_red1" ></div>
+                    <div class="box box_red1" id="box_red1"></div>
                     <div class="box box_red2"></div>
                     <div class="box box_red3"></div>
                 </div>
                 <div id="plain" class="boxes" style="left: 450px;">
-                    <div class="box plain"></div>
+                    <div class="box plain" id="plain-img"></div>
                 </div>
             </div>
         </div>
@@ -260,13 +261,8 @@
 
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="libs/main.js" defer></script>
-    <script type="text/javascript">
-        $(document).ready(function(){ Rotator(); })
-        </script>
-    <script>
-       
-    </script>
 </body>
 
 </html>
