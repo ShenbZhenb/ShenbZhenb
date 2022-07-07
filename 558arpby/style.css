@@ -125,9 +125,9 @@ a {
     top: 31%;
     right: 26%;
     transform: translate(50%, -30%);
-    background: url("plain.svg") no-repeat center / cover;
-    width: 470px;
-    height: 255px;
+    background: url("plain.svg") no-repeat center / contain;
+    width: 800px;
+    height: 234px;
 }
 
 
@@ -135,33 +135,36 @@ a {
 .box_red1{
     position: absolute;
     background: url("/558arpby/oblako1.png") no-repeat center / cover;
-    width: 528px;
+    width: 500px;
     height: 277px;
     top: 60%;
     right: 72%;
     transform: translate(50%, -30%);
-    
+
 }
+
+    
+
 
 .box_red2{
     position: absolute;
-    background: url("/558arpby/new_oblako2.png") no-repeat center / cover;
-    width: 528px;
-    height: 277px;
-    top: 22%;
-    right: 55%;
-    transform: translate(50%, -30%);
+background: url("/558arpby/new_oblako2.png") no-repeat center / cover;
+width: 500px;
+height: 277px;
+top: 22%;
+right: 55%;
+transform: translate(50%, -30%);
 }
 
 .box_red3{
-    position: absolute;
-    background: url("/558arpby/oblako3.png") no-repeat center / cover;
-    width: 1181px;
-    height: 325px;
-    top: 50%;
-    right: 25%;
-    transform: translate(50%, -30%);
-}
+        position: absolute;
+        background: url("/558arpby/oblako3.png") no-repeat center / cover;
+        width: 1190px;
+        height: 397px;
+        top: 50%;
+        right: 25%;
+        transform: translate(50%, -30%);
+        }
 
 header {
     position: absolute;

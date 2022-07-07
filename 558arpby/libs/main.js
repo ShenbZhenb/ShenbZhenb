@@ -39,7 +39,7 @@ drodownManager();
 burgerToggler();
 
 
-(function () {
+/*(function () {
     // Add event listener
     document.addEventListener("mousemove", parallax);
     const elem = document.querySelector("#welcome");
@@ -63,6 +63,7 @@ burgerToggler();
       elem.style.backgroundPosition = x;
     }
   })();
+  */
   
   (function () {
     // Add event listener
@@ -70,24 +71,99 @@ burgerToggler();
     const elem = document.querySelector("#plain-img");
     // Magic happens here
     function parallax(e) {
-      let _w = window.innerWidth / 2;
-      let _h = window.innerHeight / 2;
-      let _mouseX = e.clientX;
-      let _mouseY = e.clientY;
-      let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${
-        50 - (_mouseY - _h) * 0.01
-      }%`;
-      let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${
-        50 - (_mouseY - _h) * 0.02
-      }%`;
-      let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${
-        50 - (_mouseY - _h) * 0.06
-      }%`;
-      let x = `${_depth3}, ${_depth2}, ${_depth1}`;
-      console.log(x);
-      elem.style.backgroundPosition = x;
+    let _w = window.innerWidth / 2;
+    let _h = window.innerHeight / 2;
+    let _mouseX = e.clientX;
+    let _mouseY = e.clientY;
+    let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${
+    50 - (_mouseY - _h) * 0.01
+    }%`;
+    let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${
+    50 - (_mouseY - _h) * 0.02
+    }%`;
+    let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${
+    50 - (_mouseY - _h) * 0.06
+    }%`;
+    let x = `${_depth3}, -${_depth2}, -${_depth1}`;
+    console.log(x);
+    elem.style.backgroundPosition = x;
     }
-  })();
+    })();
+
+    (function () {
+        // Add event listener
+        document.addEventListener("mousemove", parallax);
+        const elem = document.querySelector("#box_red1");
+        // Magic happens here
+        function parallax(e) {
+        let _w = window.innerWidth / 2;
+        let _h = window.innerHeight / 2;
+        let _mouseX = e.clientX;
+        let _mouseY = e.clientY;
+        let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${
+        50 - (_mouseY - _h) * 0.01
+        }%`;
+        let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${
+        50 - (_mouseY - _h) * 0.02
+        }%`;
+        let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${
+        50 - (_mouseY - _h) * 0.06
+        }%`;
+        let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+        console.log(x);
+        elem.style.backgroundPosition = x;
+        }
+        })();
+        
+        (function () {
+        // Add event listener
+        document.addEventListener("mousemove", parallax);
+        const elem = document.querySelector("#box_red2");
+        // Magic happens here
+        function parallax(e) {
+        let _w = window.innerWidth / 2;
+        let _h = window.innerHeight / 2;
+        let _mouseX = e.clientX;
+        let _mouseY = e.clientY;
+        let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${
+        50 - (_mouseY - _h) * 0.01
+        }%`;
+        let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${
+        50 - (_mouseY - _h) * 0.02
+        }%`;
+        let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${
+        50 - (_mouseY - _h) * 0.06
+        }%`;
+        let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+        console.log(x);
+        elem.style.backgroundPosition = x;
+        }
+        })();
+        
+        (function () {
+        // Add event listener
+        document.addEventListener("mousemove", parallax);
+        const elem = document.querySelector("#box_red3");
+        // Magic happens here
+        function parallax(e) {
+        let _w = window.innerWidth / 2;
+        let _h = window.innerHeight / 2;
+        let _mouseX = e.clientX;
+        let _mouseY = e.clientY;
+        let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${
+        50 - (_mouseY - _h) * 0.01
+        }%`;
+        let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${
+        50 - (_mouseY - _h) * 0.02
+        }%`;
+        let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${
+        50 - (_mouseY - _h) * 0.06
+        }%`;
+        let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+        console.log(x);
+        elem.style.backgroundPosition = x;
+        }
+        })();
 
   function Rotator(start_from){
     var phrases = ["Ремонт авиационной техники","Сервисное обслуживание авиационной техники","Производство деталей и авиакомпонентов"];
