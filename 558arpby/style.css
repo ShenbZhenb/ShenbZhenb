@@ -4267,3 +4267,90 @@ footer {
     line-height: 150%;
     color: #2B2B2B;
 }
+
+.hostel2_first-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    margin-bottom: 20px;
+
+}
+
+.hostel2_second-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    margin-bottom: 20px;
+
+}
+
+.hostel2_third-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    margin-bottom: 40px;
+
+}
+
+.hostel2_list1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #2B2B2B;
+    margin-bottom: 15px;
+}
+
+.hostel2_list2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    margin-bottom: 8px;
+}
+
+.hostel2_list3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+    margin-bottom: 4px;
+}
+
+.hostel2_list4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B2B2B;
+}
+
+.hostel2_content{
+    max-width: 1351px;
+    max-height: 898px;
+    margin-left: 35px;
+    margin-bottom: 80px;
+}
+
+.tab-content {
+    display: none;
+  }
+
+  .tab-content.active {
+    display: block;
+  }
