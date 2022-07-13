@@ -53,6 +53,7 @@ a {
     width: 100%;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 #welcome {
@@ -88,7 +89,7 @@ a {
     font-size: 50px;
     line-height: 59px;
     letter-spacing: 1%;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -97,6 +98,21 @@ a {
 .welcome-button {
     max-width: 293px;
     padding: 20px 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.common-button:hover{
+    background: #146FBE;
+}
+
+.common-button:active{
+    background: #0051A0;
+}
+
+.menu-control:hover{
+    color: #005BAA;
+
 }
 
 .field {
@@ -122,25 +138,47 @@ a {
 
 .plain {
     position: absolute;
-    top: 31%;
-    right: 26%;
-    transform: translate(50%, -30%);
-    background: url("plain.svg") no-repeat center / contain;
-    width: 800px;
-    height: 234px;
+top: 31%;
+right: 26%;
+transform: translate(50%, -30%);
+background: url("plain.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-position: 50% 50%;
+width: 100%;
+height: 100vh;
 }
 
 
 
 .box_red1{
     position: absolute;
-    background: url("/558arpby/oblako1.png") no-repeat center / cover;
-    width: 500px;
-    height: 277px;
-    top: 60%;
-    right: 72%;
-    transform: translate(50%, -30%);
+background: url("/558arpby/oblako1.png") no-repeat center / cover;
+width: 500px;
+height: 277px;
+top: 60%;
+right: 72%;
+transform: translate(50%, -30%);
+animation: move 25s infinite linear;
 
+}
+
+@keyframes move {
+0% {
+transform: translate(100px, 0px);
+}
+25% {
+transform: translate(300px, 0px);
+}
+50% {
+transform: translate(500px, 0px);
+}
+75% {
+transform: translate(300px, 0px);
+}
+100% {
+transform: translate(100px, 0px);
+}
 }
 
     
@@ -154,6 +192,7 @@ height: 277px;
 top: 22%;
 right: 55%;
 transform: translate(50%, -30%);
+animation: move 25s infinite linear;
 }
 
 .box_red3{
@@ -164,6 +203,7 @@ transform: translate(50%, -30%);
         top: 50%;
         right: 25%;
         transform: translate(50%, -30%);
+        animation: move 25s infinite linear;
         }
 
 header {
@@ -275,7 +315,7 @@ header {
 .services_block1{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 40px;
 }
 
@@ -283,7 +323,7 @@ header {
 .services_block2{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .services_image1{
@@ -352,6 +392,7 @@ header {
 
 .services_unblock1{
 position: relative;
+margin-right: 40px;
 }
 
 .services_unblock1:hover .services_head1{
@@ -433,6 +474,7 @@ position: relative;
 
 .services_unblock3{
     position: relative;
+    margin-right: 40px;
 }
 
 .services_unblock4{

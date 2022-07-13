@@ -84,13 +84,13 @@ burgerToggler();
     let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${
     50 - (_mouseY - _h) * 0.06
     }%`;
-    let x = `${_depth3}, -${_depth2}, -${_depth1}`;
+    let x = `${_depth3}, ${_depth2}, ${_depth1}`;
     console.log(x);
     elem.style.backgroundPosition = x;
     }
     })();
 
-    (function () {
+    /*(function () {
         // Add event listener
         document.addEventListener("mousemove", parallax);
         const elem = document.querySelector("#box_red1");
@@ -163,7 +163,7 @@ burgerToggler();
         console.log(x);
         elem.style.backgroundPosition = x;
         }
-        })();
+        })();*/
 
   function Rotator(start_from){
     var phrases = ["Ремонт авиационной техники","Сервисное обслуживание авиационной техники","Производство деталей и авиакомпонентов"];
