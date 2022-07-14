@@ -193,5 +193,32 @@ burgerToggler();
     })
 }
 
+ymaps.ready(init);
+
+function init () {
+    var myMap = new ymaps.Map("map", {
+            center: [53.11545113842839,26.032981865381846],
+            zoom: 16
+        }),
+
+        myPlacemark2 = new ymaps.Placemark(myMap.getCenter(), {
+            // Свойства.
+            hintContent: 'Собственный значок метки'
+        }, {
+            // Опции.
+            // Своё изображение иконки метки.
+            iconImageHref: 'gps.png',
+            // Размеры метки.
+            iconImageSize: [30, 42],
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-3, -42]
+        });
+
+    // Добавляем все метки на карту.
+    myMap.geoObjects
+        .add(myPlacemark2)
+}
+
 
             

@@ -111,25 +111,9 @@ a {
 }
 
 .menu-control:hover{
-    color: #005AA9;
+    color: #005BAA;
 
 }
-
-.menu-control:active{
-    color: #00509F;
-
-}
-
-.menu-link:hover{
-    color: #005AA9;
-
-}
-
-.menu-link:active{
-    color: #00509F;
-
-}
-
 
 .field {
     height: 130px;
@@ -342,10 +326,6 @@ header {
     justify-content: center;
 }
 
-.services_fon{
-   
-}
-
 .services_image1{
     width: 940px;
     height: 379px;
@@ -397,6 +377,7 @@ header {
 }
 
 .services_head1{
+    position: absolute;
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
@@ -405,28 +386,25 @@ header {
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
-    
+    top: 40%;
+    right: 32%;
 }
 
 .services_unblock1{
 position: relative;
 margin-right: 40px;
-width: 940px;
-height: 379px;
-background-image: url(air_component_4.png);
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 0px 15px 15px 0px;
-z-index: 2;
 }
 
+.services_unblock1:hover .services_head1{
+    top: 30%;
+}
 
 .services_unblock2{
 position: relative;
 }
 
 .services_text1{
+    position: absolute;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -434,6 +412,8 @@ position: relative;
     line-height: 21px;
     text-align: center;
     color: #FFFFFF;
+    top: 46%;
+    right: 22%;
     opacity: 0;
     -webkit-transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;
@@ -449,6 +429,7 @@ position: relative;
 
 
 .services_button{
+    position: absolute;
     width: 207px;
     height: 48px;
     background: #005BAA;
@@ -460,6 +441,8 @@ position: relative;
     line-height: 21px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
+    right: 39%;
+    top: 62%;
     cursor: pointer;
     opacity: 0;
     -webkit-transition: all 0.7s ease-in-out;
@@ -467,18 +450,6 @@ position: relative;
     -ms-transition: all 0.7s ease-in-out;
     -o-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
-    align-self: center;
-    margin-left:155px;
-}
-
-.services_button:hover{
-    background: #146FBE;
-
-}
-
-.services_button:active{
-    background: #0051A0;
-
 }
 
 .services_unblock1:hover .services_button {
@@ -551,6 +522,8 @@ position: relative;
 #map {
 
     position: relative;
+    width: 100%;
+    height: 612px;
 
 }
 
@@ -561,6 +534,7 @@ position: relative;
     left: 50%;
     transform: translateX(-50%);
     padding: 50px 0 55px;
+    z-index: 2;
 }
 
 .map-wrapper{
