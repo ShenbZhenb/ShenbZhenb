@@ -216,8 +216,7 @@ function init () {
         });
 
     // Добавляем все метки на карту.
-    myMap.geoObjects
-        .add(myPlacemark2)
+    add(myPlacemark2)
 }
 
 
