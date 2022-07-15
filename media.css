@@ -3,7 +3,15 @@
 
 
 
+@media screen and (max-width: 2560px){
+    .services_button{
+        right: 38%;
+    }
 
+    .services_text1{
+        right: 22%;
+    }
+}
 
 @media screen and (max-width: 1440px){
     .services{
@@ -39,6 +47,11 @@
         justify-content: space-between;
     }
     
+    .services_unblock1{
+        width: 700px;
+        height: 379px;
+    }
+
     .services_image1{
         width: 700px;
         height: 379px;
@@ -210,6 +223,14 @@
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .services_unblock1{
+        width: 492px;
+        height: 379px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
     .services_image1{
         width: 492px;
@@ -241,7 +262,6 @@
     }
     
     .services_head1{
-        position: absolute;
         text-align: center;
         font-family: 'Roboto';
         font-style: normal;
@@ -250,8 +270,6 @@
         line-height: 28px;
         text-align: center;
         color: #FFFFFF;
-        top: 30%;
-        right: 16%;
     }
     
     .services_unblock1{
@@ -666,6 +684,9 @@
     
     .services_unblock1{
     position: relative;
+    width: 730px;
+    height: 330px;
+    margin-bottom: 40px;
     }
     
     .services_unblock2{
@@ -1166,6 +1187,8 @@
     
     .services_unblock1{
     position: relative;
+    width: 425px;
+    height: 165px;
     }
     
     .services_unblock2{
@@ -1509,6 +1532,8 @@
     
     .services_unblock1{
     position: relative;
+    width: 375px;
+        height: 165px;
     }
     
     .services_unblock2{
@@ -1852,6 +1877,8 @@
     
     .services_unblock1{
     position: relative;
+    width: 320px;
+        height: 165px;
     }
     
     .services_unblock2{
