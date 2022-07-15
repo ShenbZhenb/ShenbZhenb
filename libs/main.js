@@ -193,31 +193,34 @@ burgerToggler();
     })
 }
 
-ymaps.ready(init);
+let center = [53.11546507128684,26.033077999999993];
 
-function init () {
-    var myMap = new ymaps.Map("map", {
-            center: [53.11545113842839,26.032981865381846],
-            zoom: 16
-        }),
+function init(){
+    let map = new ymaps.Map('map', {
+        center: center,
+        zoom: 16
+    });
 
-        myPlacemark2 = new ymaps.Placemark(myMap.getCenter(), {
-            // Свойства.
-            hintContent: 'Собственный значок метки'
-        }, {
-            // Опции.
-            // Своё изображение иконки метки.
-            iconImageHref: 'gps.png',
-            // Размеры метки.
-            iconImageSize: [30, 42],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            iconImageOffset: [-3, -42]
-        });
+    let placemark = new ymaps.Placemark(center, {}, {
+      iconLayout: 'default#image',
+      iconImageHref: 'gps.png',
+      iconImageSize: [80, 111],
+      iconImageOffset: [-40, -110]
 
-    // Добавляем все метки на карту.
-    add(myPlacemark2)
+    });
+
+    //map.controls.remove('geolocationControl'); // удаляем геолокацию
+    map.controls.remove('searchControl'); // удаляем поиск
+    map.controls.remove('trafficControl'); // удаляем контроль трафика
+    map.controls.remove('typeSelector'); // удаляем тип
+    map.controls.remove('fullscreenControl'); // удаляем кнопку перехода в полноэкранный режим
+    //map.controls.remove('zoomControl'); // удаляем контрол зуммирования
+    map.controls.remove('rulerControl'); // удаляем контрол правил
+    map.behaviors.disable(['scrollZoom']); // отключаем скролл карты (опционально)
+
+    map.geoObjects.add(placemark);
 }
 
+ymaps.ready(init);
 
             

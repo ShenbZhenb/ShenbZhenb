@@ -528,6 +528,14 @@ position: relative;
 
 }
 
+[class*="copyrights-pane"] {
+	display: none !important;
+}
+
+[class*="ground-pane"] {
+	filter: grayscale(1);
+}
+
 #map .container{
     position: absolute;
     height: 100%;
