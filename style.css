@@ -159,7 +159,7 @@ height: 450px;
 top: 25%;
 right: 57%;
 transform: translate(50%, -30%);
-animation: move 25s infinite linear;
+animation: move 125s infinite linear;
 
 }
 
@@ -192,7 +192,7 @@ height: 442px;
 top: 45%;
 right: 30%;
 transform: translate(50%, -30%);
-animation: move 25s infinite linear;
+animation: move 125s infinite linear;
 }
 
 .box_red3{
@@ -203,7 +203,7 @@ animation: move 25s infinite linear;
         top: 50%;
         right: 25%;
         transform: translate(50%, -30%);
-        animation: move 25s infinite linear;
+        animation: move 125s infinite linear;
         }
 
 header {
@@ -748,12 +748,14 @@ footer {
 }
 
 .footer-social:hover{
-    color:  #FFFFFF;
+	color: #F5F5F5;
 }
 
-.footer-social.active{
+.footer-social:active{
     color: #F5F5F5;
 }
+
+
 
 .footer-copyright {
     padding-top: 30px;

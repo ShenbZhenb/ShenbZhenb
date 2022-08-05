@@ -1977,6 +1977,11 @@
     .services_unshift{
         display: block;
     }
+
+
+		.news_cards > news_card:not(:first-child) {
+			display: none;
+		}
 }
 
 
